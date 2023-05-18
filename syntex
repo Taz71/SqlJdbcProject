@@ -1,0 +1,7 @@
+show databases;
+create database september2022
+show databases
+mysql> create table users( username varchar (25) not null,password varchar (25) not null);
+(Command to create a table in the data baase)
+insert into users values ('demo@techfios.com', 'abc123');
+select * from users;    (to see the datas inside the table).
